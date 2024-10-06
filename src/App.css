@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 300px;
+  
+}
+
+.movie-list {
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
